@@ -1,0 +1,106 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstSection {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  width: 571px;
+}
+
+li {
+  margin-top: 5px;
+  list-style: none;
+}
+
+.buttonDivs {
+  width: 226px;
+  /* background-color: aqua; */
+  box-sizing: border-box;
+}
+
+#Register {
+  margin-left: 40px;
+  width: 91px;
+  height: 31px;
+  border-radius: 10px;
+  border: none;
+}
+#Register:hover {
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+#login {
+  width: 91px;
+  height: 31px;
+  border-radius: 10px;
+  border: none;
+}
+
+#login:hover {
+  border: solid 1px black;
+  cursor: pointer;
+}
+#featureBtn {
+  border: none;
+}
+#featureBtn:hover {
+  cursor: pointer;
+}
+
+#companyBtn {
+  border: none;
+}
+#companyBtn:hover {
+  cursor: pointer;
+}
+#learnMoreBtn:hover {
+  cursor: pointer;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hero {
+  width: 500px;
+  /* background-color: aqua; */
+  margin-left: 192px;
+  margin-top: 116px;
+}
+
+.heroHeader {
+  width: 273px;
+  font-size: 25px;
+}
+.heroContent {
+  width: 311px;
+}
+
+#learnMoreBtn {
+  width: 121px;
+  margin-top: 42px;
+  height: 44px;
+  border-radius: 11px;
+  font-weight: bolder;
+}
+.heroImg {
+  width: 200px;
+  /* background-color: blue; */
+  width: 502px;
+  margin-top: 116px;
+  height: 509px;
+}
+
+#heroImgId {
+  width: 100%;
+  height: 100%;
+}
+
+.imgIconDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 128px;
+}
