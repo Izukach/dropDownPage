@@ -1,13 +1,24 @@
 header {
   display: flex;
   justify-content: space-between;
+  /* background-color: blueviolet; */
+  box-sizing: border-box;
+  /* position: absolute;
+  left: 184px;
+  top: 145px;
+  z-index: -1; */
+}
+
+ul {
+  margin-left: -36px;
 }
 
 .firstSection {
-  background-color: aliceblue;
+  /* background-color: red; */
   display: flex;
   justify-content: space-evenly;
   width: 571px;
+  box-sizing: border-box;
 }
 
 li {
@@ -21,6 +32,13 @@ li {
   box-sizing: border-box;
 }
 
+.featureContent {
+  display: none;
+}
+
+.companyContent {
+  display: none;
+}
 #Register {
   margin-left: 40px;
   width: 91px;
@@ -63,12 +81,18 @@ li {
 main {
   display: flex;
   justify-content: space-evenly;
+  /* margin-top: 116px; */
+  /* background-color: aquamarine; */
+  position: absolute;
+  left: 285px;
+  top: 125px;
+  z-index: -1;
 }
 .hero {
   width: 500px;
   /* background-color: aqua; */
-  margin-left: 192px;
-  margin-top: 116px;
+  /* margin-left: 192px; */
+  /* margin-top: 116px; */
 }
 
 .heroHeader {
@@ -103,4 +127,9 @@ main {
   display: flex;
   justify-content: space-around;
   margin-top: 128px;
+}
+
+/* .featureContent, */
+.show {
+  display: block;
 }

@@ -18,12 +18,12 @@
           <img src="./image/logo.svg" alt="logo" id="loGo" />
         </div>
         <div class="featureDiv">
-          <button id="featureBtn">
+          <button onclick = "clickMe()" id="featureBtn">
             Features<!--<i class="fa-solid fa-angle-down"></i>-->
             <i class="fa-sharp fa-solid fa-angle-up"></i>
           </button>
-          <div class="featureContent">
-            <!-- <ul>
+          <div class="featureContent" id="firstContent">
+            <ul>
               <li>
                 <img src="./image/icon-todo.svg" alt="" id="toDo" />
                 <span id="todoText">Todo List</span>
@@ -41,21 +41,21 @@
                 <img src="./image/icon-planning.svg" alt="" id="planning" />
                 <span id="todoText">Planning</span>
               </li>
-            </ul> -->
+            </ul>
           </div>
         </div>
         <div class="companyDiv">
-          <button id="companyBtn">
+          <button  onclick = "clickMe2()" id="companyBtn">
             Company
             <!--<i class="fa-solid fa-angle-down"></i>-->
             <i class="fa-sharp fa-solid fa-angle-up"></i>
           </button>
           <div class="companyContent">
-            <!-- <ul>
+            <ul>
               <li>History</li>
               <li>Our Team</li>
               <li>Blog</li>
-            </ul> -->
+            </ul>
           </div>
         </div>
         <div class="careerDiv">
@@ -103,5 +103,6 @@
       </div>
     </div>
     </main>
+  <script src="./main.js"></script>
   </body>
 </html>
